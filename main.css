@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'billabongregular';
+    src: url('Billabong.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    position: relative;
+    background-image: url(background.jpg);
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.degrade {
+    background: -webkit-gradient(linear, left top, left bottom, from(purple), to(orangered));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.conteneur{
+    width: 1000px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid;
+}
+#video {
+    position: absolute;
+    box-shadow: 2px 2px 3px black;
+    width:400px;
+    height:300px;
+}
+
+#canvas {
+    margin-top: 340px;
+}
+
+#takebutton {
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 10px;
+    background-color: green;
+    font-size: 14px;
+    color: white;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    border-radius: 20px;
+    border: 1px solid green;
+}
+
+#upload {
+    width: 86px;
+    height: 22px;
+    position: absolute;
+    margin-top: 294px;
+    margin-left: 110px;
+    background-color: green;
+    font-size: 22px;
+    color: white;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    border-radius: 20px;
+    border: 1px solid green;
+}
+/* 2eme partie */
+
+#header{
+    width: 100%;
+    height: 140px;
+    display: block;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    margin-top: -70;
+    margin-left: 20;
+}
+#user{
+    position: absolute;
+    top: -10;
+    right: 30;
+    font-family: Baskerville;
+    font-size: 20;
+}
+#mdp {
+    position: relative;
+    top: 10;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20;
+}
+
+.button
+{
+    width: 135px;
+    position: absolute;
+    background-color: white;
+    font-size:20;
+    border-radius: 7px;
+    border-color: black;
+    top: 70px;
+    right: 20;
+    font-family: "Bodoni MT";
+}
+h3 {
+    text-align: center;
+    font-size: 40;
+    font-family: serif;
+}
+#err {
+    position: absolute;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    border: 1px solid #999;
+    padding: 3px;
+    left: 30px;
+    font-size: 18;
+    font-family: "Bodoni MT";
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    top:200px;
+}
+.box{
+    position: relative;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+    width:300px;
+    background-color:lightgrey;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px grey;
+    float: none;
+    margin-top: 50px;
+}
+.centerbox{
+    position: relative;
+    float: none;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+}
+#button2{
+    width:200px;
+    margin-left: auto;
+    font-size: 18;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    border: 1px solid #999;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    font-family: "Bodoni MT";
+}
+
+ul {
+    list-style-type: none;
+}
+
+.th_button
+{
+    width:20;
+}
+.th_bar
+{
+    font-family: Baskerville;
+    background-color: #333;
+    font-size: 20;
+    color: white;
+}
+tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+}
+tr:hover
+{
+    background-color: #ddd;
+}
+table
+{
+    border-collapse: collapse;
+    margin: 50 auto;
+}
+.button_prod
+{
+    border-radius: 50%;
+    border-color: #57ac03;
+    width: 25;
+    height: 25;
+    background-color: #62c600;
+}
+center
+{
+    float: right;
+    margin-right: 50;
+    margin-bottom: 10;
+}
+
+input#title{
+    margin-top: 109px;
+    margin-left: 260px;
+}
+
+div.galerie{
+    position: absolute;
+    margin-left: 600px;
+}
+
